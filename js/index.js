@@ -112,6 +112,7 @@ let nav = document.querySelector("nav");
 let newLinks = ["Sign In", "Sign Out"];
 newLinks.forEach(links => {
   let newItems = document.createElement("a");
+  newItems.setAttribute("href", "#");
   nav.appendChild(newItems);
   newItems.textContent = links;
   newItems.style.textDecoration = "none";
