@@ -9,6 +9,12 @@ body {
   font-size: 80px;
 }
 
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
 .redDigit {
   color: red;
 }
